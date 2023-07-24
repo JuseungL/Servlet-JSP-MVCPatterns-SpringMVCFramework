@@ -15,7 +15,7 @@ public class MemberRepository {
 
     private static final MemberRepository instance = new MemberRepository();
     //싱글톤이기 때문에 private으로 막아야해
-    static MemberRepository getInstance() {
+    public static MemberRepository getInstance() {
         return instance;
     }
 

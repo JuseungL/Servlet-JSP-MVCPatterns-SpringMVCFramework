@@ -10,7 +10,7 @@ public class Member {
     private String username;
     private int age;
 
-    public Member() {
+    private Member() {
     }
 
     public Member(String username, int age) {
