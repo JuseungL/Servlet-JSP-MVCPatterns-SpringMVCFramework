@@ -9,6 +9,7 @@ import spring.servlet.domain.member.MemberRepository;
 import java.util.List;
 
 @Controller
+//URL매핑 중복 제거 위해서 추가하였다.
 @RequestMapping("/springmvc/v3/members")
 public class SpringMemberControllerV3 {
     private final MemberRepository memberRepository = MemberRepository.getInstance();
