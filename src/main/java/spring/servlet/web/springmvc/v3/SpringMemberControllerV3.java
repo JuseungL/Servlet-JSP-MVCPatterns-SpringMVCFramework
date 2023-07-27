@@ -41,7 +41,7 @@ public class SpringMemberControllerV3 {
     }
 
     //@RequestMapping(value="", method = RequestMethod.GET)
-    @PostMapping("")
+    @PostMapping("/")
     public String memberList(Model model) {
         List<Member> members = memberRepository.findAll();
 //        ModelAndView mv = new ModelAndView("members");
